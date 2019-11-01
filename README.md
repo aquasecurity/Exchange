@@ -4,10 +4,12 @@ The Aqua Community Exchange is a central location designed to showcase our colle
 
 _These integrations have been developed by the Aqua Community. For technical questions, please contact Aqua Security at community.plugins@aquasec.com._
 
-## Community Integrations
+## Integrations and Plug-ins
+|Integration|Description|Competability|Link|
+|-----------|-----------|-------------|----|
+|**AWS Security Hub plug-in**| Aqua’s integration with AWS Security Hub allows users to monitor real-time security events, risks and vulnerabilities in their cloud native environment, providing granular information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.|Aqua:4.x\|SumoLogic:8.x|[AWS Security Hub Repo](https://aquasecurity.github.io/aws-security-hub-plugin/)|
 
-|Integration|Description|Link|
-|-----------|-----------|----|
-|**AWS Security Hub plug-in**| Aqua’s integration with AWS Security Hub allows users to monitor real-time security events, risks and vulnerabilities in their cloud native environment, providing granular information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.| [AWS Security Hub Repo](https://aquasecurity.github.io/aws-security-hub-plugin/)|
-|**Sumo Logic plug-in**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.| [Sumo Logic Repo](https://aquasecurity.github.io/Sumo-Logic-App/)|
-|**Sumo Logic plug-in**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.| [Sumo Logic Repo](https://aquasecurity.github.io/Sumo-Logic-App/)|
+## 3rd Party Apps
+|Integration|Description|Competability|Link|
+|-----------|-----------|-------------|----|
+|**Sumo Logic plug-in**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.|Aqua:4.x\|Security Hub:8.x|[Sumo Logic Repo](https://aquasecurity.github.io/Sumo-Logic-App/)|
