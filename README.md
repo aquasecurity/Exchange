@@ -8,5 +8,5 @@ _These integrations have been developed by the Aqua Community. For technical que
 
 |Integration|Description|Link|
 |-----------|-----------|----|
-|**AWS Security Hub plug-in**| Aqua/’s integration with AWS Security Hub allows users to monitor real-time security events, risks and vulnerabilities in their cloud native environment, providing granular information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.| [AWS Security Hub Repo](https://aquasecurity.github.io/aws-security-hub-plugin/)|
+|**AWS Security Hub plug-in**| Aqua’s integration with AWS Security Hub allows users to monitor real-time security events, risks and vulnerabilities in their cloud native environment, providing granular information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.| [AWS Security Hub Repo](https://aquasecurity.github.io/aws-security-hub-plugin/)|
 |**Sumo Logic plug-in**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.| [Sumo Logic Repo](https://aquasecurity.github.io/Sumo-Logic-App/)|
