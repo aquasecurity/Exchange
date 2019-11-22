@@ -8,9 +8,9 @@ _These integrations have been developed by the Aqua Community. For technical que
 
 |Integration|Description|Competability|Link|
 |-----------|-----------|-------------|----|
-|**AWS Security Hub plug-in**| Aqua’s integration with AWS Security Hub allows users to monitor real-time security events, risks and vulnerabilities in their cloud native environment, providing granular information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.|Aqua 4.x|[AWS Security Hub Repo](https://aquasecurity.github.io/aws-security-hub-plugin/)|
+|**AWS Security Hub plug-in**| Sends AWS Security Hub real-time security events in the cloud native environment, providing granular information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.|Aqua 4.x|[AWS Security Hub Repo](https://aquasecurity.github.io/aws-security-hub-plugin/)|
+|**OpsGenie**|Opens cloud native security tickets in OpsGenie, allowing users to track and manage secuirty incidents across images, hosts, and workloads.|Aqua 4.x|OpsGenie](https://aquasecurity.github.io/opsgenie-plugin/)|
 |**ServiceNow**|_Coming soon..._<br>Aqua's integration with ServiceNow ITSM modle|Aqua 4.x|_TBD_|
-|**OpsGenie**|_Coming soon..._<br>Aqua's integration with OpsGenie|Aqua 4.x|_TBD_|
 |**Microsoft Security Center**|_Coming soon..._<br>Aqua's integration with Security Center|Aqua 4.x|_TBD_|
 
 ## 3rd Party Apps
