@@ -20,7 +20,7 @@ _These integrations have been developed by the Aqua Community. For technical que
 |**Sumo Logic plug-in**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.|Aqua 4.x|[Sumo Logic Repo](https://github.com/aquasecurity/Sumo-Logic-App/)|
 |**Splunk**|_Coming soon..._<br>The Aqua Security App for Splunk|Aqua 4.x|_TBD_|
 
-## Product extensions 
+## Product Extensions 
 
 |Integration|Description|Competability|Repository|
 |-----------|-----------|-------------|----|
