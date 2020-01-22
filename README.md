@@ -4,7 +4,7 @@ The Aqua Community Exchange is a central location designed to showcase our colle
 
 _These integrations have been developed by the Aqua Community. For technical questions, please contact Aqua Security at community.plugins@aquasec.com._
 
-## Integrations and Plug-ins
+## Integrations 
 
 |Integration|Description|Competability|Repository|
 |-----------|-----------|-------------|----|
@@ -19,3 +19,10 @@ _These integrations have been developed by the Aqua Community. For technical que
 |-----------|-----------|-------------|----|
 |**Sumo Logic plug-in**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.|Aqua4.x|[Sumo Logic Repo](https://github.com/aquasecurity/Sumo-Logic-App/)|
 |**Splunk**|_Coming soon..._<br>The Aqua Security App for Splunk|Aqua 4.x|_TBD_|
+
+## Product extensions 
+
+|Integration|Description|Competability|Repository|
+|-----------|-----------|-------------|----|
+|**Aqua Reports**| Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API. |Aqua4.x|[Aqua Reports](https://github.com/BryanKMorrow/aqua-reports)|
+
