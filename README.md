@@ -26,3 +26,9 @@ _These integrations have been developed by the Aqua Community. For technical que
 |-----------|-----------|-------------|----|
 |**Aqua Reports**| Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API. |Aqua 4.5+|[Aqua Reports](https://github.com/BryanKMorrow/aqua-reports)|
 
+## Platform Support 
+
+|Extension|Description|Compatability|Repository|
+|-----------|-----------|-------------|----|
+|**ARO Deployment**| Instuctions and scripts to deploy Aqua on ARO 3.11 |Aqua 4.5+|[ARO Deployment](https://github.com/aquasecurity/ARO-deployment)|
+
