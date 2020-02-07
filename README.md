@@ -30,5 +30,5 @@ _These integrations have been developed by the Aqua Community. For technical que
 
 |Platform|Description|Compatability|Repository|
 |-----------|-----------|-------------|----|
-|**ARO 3.11**| Instuctions and scripts to deploy Aqua on ARO 3.11 |Aqua 4.5+|[ARO Deployment](https://github.com/aquasecurity/ARO-deployment)|
+|**ARO 3.11**| Instuctions and scripts to deploy Aqua on ARO 3.11 |Aqua 4.5+ & ARO 3.11 |[ARO Deployment](https://github.com/aquasecurity/ARO-deployment)|
 
