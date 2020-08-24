@@ -8,8 +8,8 @@ _These integrations have been developed by the Aqua Community. For technical que
 
 |Integration|Description|Compatibility|Repository|
 |-----------|-----------|-------------|----|
-|**AWS Security Hub plug-in**| Sends AWS Security Hub real-time security events in cloud native applications and environments, providing  information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.|Aqua 4.5,4.6,5.0|[AWS Security Hub repo](https://github.com/aquasecurity/aws-security-hub-plugin)|
-|**OpsGenie**|Opens tickets in OpsGenie regarding cloud native security incidents, allowing users to track and manage security incidents across images, hosts and workloads.|Aqua 4.5,4.6,5.0|[OpsGenie repo](https://github.com/aquasecurity/opsgenie-plugin)|
+|**AWS Security Hub plug-in**| Sends AWS Security Hub real-time security events in cloud native applications and environments, providing  information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.|Aqua 4.5, 4.6, 5.0|[AWS Security Hub repo](https://github.com/aquasecurity/aws-security-hub-plugin)|
+|**OpsGenie**|Opens tickets in OpsGenie regarding cloud native security incidents, allowing users to track and manage security incidents across images, hosts and workloads.|Aqua 4.5, 4.6, 5.0|[OpsGenie repo](https://github.com/aquasecurity/opsgenie-plugin)|
 |**JIRA**|Open a ticket in JIRA when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[JIRA Integration](https://github.com/aquasecurity/alm-integration)|
 |**ServiceNow**|Open a ticket in ServiceNow when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[ServiceNow](https://github.com/aquasecurity/alm-integration)|
 |**Slack**|Send a message to Slack when when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[Slack Integration](https://github.com/aquasecurity/alm-integration)|
@@ -19,14 +19,14 @@ _These integrations have been developed by the Aqua Community. For technical que
 
 |Solution|Description|Compatibility|Repository|
 |-----------|-----------|-------------|----|
-|**Sumo Logic**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.|Aqua 4.x|[Sumo Logic Repo](https://github.com/aquasecurity/Sumo-Logic-App/)|
+|**Sumo Logic**| The Aqua Security App for Sumo Logic provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.|Aqua 4.4, 4.6|[Sumo Logic Repo](https://github.com/aquasecurity/Sumo-Logic-App/)|
 |**Splunk**|_Coming soon..._<br>The Aqua Security App for Splunk|Aqua 4.x|_TBD_|
 
 ## Product Extensions 
 
 |Extension|Description|Compatibility|Repository|
 |-----------|-----------|-------------|----|
-|**Aqua Reports**| Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API. |Aqua 4.5+|[Aqua Reports](https://github.com/BryanKMorrow/aqua-reports)|
+|**Aqua Reports**| Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API. |Aqua 4.5, 4.6|[Aqua Reports](https://github.com/BryanKMorrow/aqua-reports)|
 |**Email notifications**|Send an email notification when when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[Email Integration](https://github.com/aquasecurity/alm-integration)|
 
 ## Platform Support 
