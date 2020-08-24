@@ -12,8 +12,8 @@ _These integrations have been developed by the Aqua Community. For technical que
 |**OpsGenie**|Opens tickets in OpsGenie regarding cloud native security incidents, allowing users to track and manage security incidents across images, hosts and workloads.|Aqua 4.5, 4.6, 5.0|[OpsGenie repo](https://github.com/aquasecurity/opsgenie-plugin)|
 |**JIRA**|Open a ticket in JIRA when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[JIRA Integration](https://github.com/aquasecurity/alm-integration)|
 |**ServiceNow**|Open a ticket in ServiceNow when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[ServiceNow](https://github.com/aquasecurity/alm-integration)|
-|**Slack**|Send a message to Slack when  Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[Slack Integration](https://github.com/aquasecurity/alm-integration)|
-|**MS Teams**|Send a message to MS Teams when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[MS Teams Integration](https://github.com/aquasecurity/alm-integration)|
+|**Slack**|Send a message to a Slack channel when  Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[Slack Integration](https://github.com/aquasecurity/alm-integration)|
+|**MS Teams**|Send a message to a MS Teams channel when Aqua's vulnerability scanning finds vulnerabilities in images|Aqua 5.0|[MS Teams Integration](https://github.com/aquasecurity/alm-integration)|
 
 ## 3rd Party Apps
 
