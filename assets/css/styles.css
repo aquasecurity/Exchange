@@ -174,7 +174,7 @@ body {
 }
 
 .header {
-  background: white url("assets/images/hero_bg.png") no-repeat;
+  background: white url("../images/hero_bg.png") no-repeat;
   height: 480px;
 }
 
