@@ -29,9 +29,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/css/reset.css" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <script src="/data.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
   </head>
   <body>
@@ -221,16 +221,19 @@
                 class="row items-center justify-between border-bottom text-sm py-lg"
               >
                 <span class="col font-bold px-lg">{{row.name}}</span>
-                <span class="col-2">{{row.description}}</span>
+                <span class="col-2" v-html="row.description"></span>
                 <span class="col px-lg">{{row.compatibility}}</span>
                 <span class="col"
                   ><a
+                    v-if="row.linkUrl"
                     :href="row.linkUrl"
                     target="_blank"
                     class="link text-primary"
                     >{{row.linkText}}</a
-                  ></span
-                >
+                  >
+
+                  <span v-else>{{row.linkText}}</span>
+                </span>
               </div>
             </div>
           </div>
