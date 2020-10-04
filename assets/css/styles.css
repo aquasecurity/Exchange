@@ -1,0 +1,200 @@
+:root {
+  --link-color: #00ffe4;
+  --button-bg: #ffc900;
+  --button-bg-hover: #ffd538;
+  --text-color: #405a75;
+  --black: #07242d;
+  --white: #fff;
+  --primary: #1904da;
+  --title-color: #183278;
+  --grey-1: #99a1aa;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 2.3rem;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.mt-md {
+  margin-top: 1.6rem;
+}
+.mt-lg {
+  margin-top: 2rem;
+}
+.mt-xl {
+  margin-top: 2.4rem;
+}
+
+.mt-huge {
+  margin-top: 7rem;
+}
+.mb-md {
+  margin-bottom: 1.6rem;
+}
+.my-md {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.mb-2xl {
+  margin-bottom: 4rem !important;
+}
+
+.pb-sm {
+  padding-bottom: 1rem;
+}
+.py-sm {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-md {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+.py-lg {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.px-md {
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+}
+.px-lg {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.text-sm {
+  font-size: 1.7rem;
+}
+
+.text-base {
+  font-size: 2.3rem;
+}
+.text-lg {
+  font-size: 2.7rem;
+}
+.text-xl {
+  font-size: 3.9rem;
+}
+.text-grey-1 {
+  color: var(--grey-1);
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.col {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--grey-1);
+}
+
+.text-black {
+  color: var(--black);
+}
+.text-white {
+  color: var(--white);
+}
+.section {
+  padding: 30px 60px;
+}
+.container {
+  width: 100%;
+  max-width: 1520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 3.9rem;
+  color: var(--title-color);
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.header {
+  background: white url("/assets/images/hero_bg.png") no-repeat;
+  height: 480px;
+}
+
+.header .button {
+  background: var(--button-bg);
+  color: var(--black);
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+
+.header .button:hover {
+  background: var(--button-bg-hover);
+}
+
+.active-tab {
+  border-bottom: 4px solid var(--link-color);
+}
+
+.tabs li {
+  cursor: pointer;
+}
