@@ -83,5 +83,42 @@ var data = [
         linkUrl: ""
       }
     ]
+  },
+  {
+    type: "extensions",
+    title: "Product Extensions",
+    headers: ["extension", "description", "compatibility", "repository"],
+    rows: [
+      {
+        name: "Aqua Reports",
+        description:
+          "Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API.",
+        compatibility: "Aqua 4.5, 4.6",
+        linkText: "Aqua Reports",
+        linkUrl: "https://github.com/BryanKMorrow/aqua-reports"
+      },
+      {
+        name: "Email notifications",
+        description:
+          "Send an email notification when Aqua's vulnerability scanning finds vulnerabilities in images",
+        compatibility: "Aqua 5.0",
+        linkText: "Email Integration",
+        linkUrl: "https://github.com/aquasecurity/alm-integration"
+      }
+    ]
+  },
+  {
+    type: "support",
+    title: "Platform Support",
+    headers: ["platform", "description", "compatibility", "repository"],
+    rows: [
+      {
+        name: "ARO 3.11",
+        description: "Instuctions and scripts to deploy Aqua on ARO 3.11",
+        compatibility: "Aqua 4.5+ & ARO 3.11",
+        linkText: "ARO Deployment",
+        linkUrl: "https://github.com/aquasecurity/ARO-deployment"
+      }
+    ]
   }
 ];

@@ -197,4 +197,23 @@ body {
 
 .tabs li {
   cursor: pointer;
+  padding-bottom: 6px;
+  transition: all 0.5s;
+}
+.fade-enter-active {
+  transition-delay: 10s;
+  opacity: 1;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-move {
+  transition: transform 0.5s;
 }

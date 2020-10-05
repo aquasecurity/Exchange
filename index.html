@@ -33,6 +33,11 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"
+      integrity="sha512-+VS2+Nl1Qit71a/lbncmVsWOZ0BmPDkopw5sXAS2W+OfeceCEd9OGTQWjgVgP5QaMV4ddqOIW9XLW7UVFzkMAw=="
+      crossorigin="anonymous"
+    ></script> -->
   </head>
   <body>
     <div id="app">
@@ -195,14 +200,18 @@
         </section>
 
         <section class="section">
+          <!-- TABS TITLES-->
           <ul class="tabs row justify-between font-bold">
-            <li class="active-tab">All</li>
-            <li>Integrations</li>
-            <li>3rd Party Apps</li>
-            <li>Product Extensions</li>
-            <li>Platform Support</li>
+            <li
+              v-for="tab in tabs"
+              :class="{'active-tab': selectedTab === tab.id}"
+              @click="selectedTab = tab.id"
+            >
+              {{tab.name}}
+            </li>
           </ul>
 
+          <!-- TABS CONTENT -->
           <div class="tabs-content">
             <div class="tab-content mt-huge" v-for="data in filteredData">
               <div class="title mb-2xl">{{data.title}}</div>
@@ -216,8 +225,16 @@
                   >{{header}}</span
                 >
               </div>
+              <!-- <transition-group
+                name="staggered-fade"
+                v-bind:css="false"
+                v-on:before-enter="beforeEnter"
+                v-on:enter="enter"
+                v-on:leave="leave"
+              > -->
               <div
                 v-for="row in data.rows"
+                :key="row.name"
                 class="row items-center justify-between border-bottom text-sm py-lg"
               >
                 <span class="col font-bold px-lg">{{row.name}}</span>
@@ -235,6 +252,7 @@
                   <span v-else>{{row.linkText}}</span>
                 </span>
               </div>
+              <!-- </transition-group> -->
             </div>
           </div>
         </section>
@@ -254,8 +272,47 @@
         },
         data: {
           data: data,
-          selectedTab: "all"
+          selectedTab: "all",
+          tabs: [
+            {
+              name: "All",
+              id: "all"
+            },
+            {
+              name: "Integrations",
+              id: "integration"
+            },
+            {
+              name: "3rd Party Apps",
+              id: "thirdParty"
+            },
+            {
+              name: "Product Extensions",
+              id: "extensions"
+            },
+            {
+              name: "Platform Support",
+              id: "support"
+            }
+          ]
         }
+        //   methods: {
+        //     beforeEnter: function (el) {
+        //       el.style.position = "absolute";
+        //     },
+        //     enter: function (el, done) {
+        //       var delay = el.dataset.index * 150;
+        //       setTimeout(function () {
+        //         Velocity(el, { left: 0 }, { complete: done });
+        //       }, delay);
+        //     },
+        //     leave: function (el, done) {
+        //       var delay = el.dataset.index * 150;
+        //       setTimeout(function () {
+        //         Velocity(el, { left: "-100%" }, { complete: done });
+        //       }, delay);
+        //     }
+        //   }
       });
     </script>
   </body>
