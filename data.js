@@ -5,7 +5,7 @@ var data = [
     headers: ["integration", "description", "compatibility", "repository"],
     rows: [
       {
-        name: "AWS Security Hub plug-in",
+        name: "AWS Security Hub",
         description:
           "Sends AWS Security Hub real-time security events in cloud native applications and environments, providing information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.",
         compatibility: "Aqua 4.5, 4.6, 5.0",
@@ -65,7 +65,7 @@ var data = [
           "Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API.",
         compatibility: "Aqua 4.5, 4.6",
         linkText: "Aqua Reports",
-        linkUrl: "https://github.com/BryanKMorrow/aqua-reports"
+        linkUrl: "https://github.com/aquasecurity/Sumo-Logic-App/"
       },
       {
         name: "Splunk",
