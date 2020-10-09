@@ -107,7 +107,7 @@ var data = [
       {
         name: "ARO 3.11",
         description: "Instuctions and scripts to deploy Aqua on ARO 3.11",
-        compatibility: "Aqua 4.5+ & ARO 3.11",
+        compatibility: "Aqua 4.5, Aqua 4.6, ARO 3.11",
         linkText: "ARO Deployment",
         linkUrl: "https://github.com/aquasecurity/ARO-deployment"
       }
