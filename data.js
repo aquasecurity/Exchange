@@ -68,14 +68,6 @@ var data = [
         linkUrl: "https://github.com/BryanKMorrow/aqua-reports"
       },
       {
-        name: "OpsGenie",
-        description:
-          "Opens tickets in OpsGenie regarding cloud native security incidents, allowing users to track and manage security incidents across images, hosts and workloads.",
-        compatibility: "Aqua 4.5, 4.6, 5.0",
-        linkText: "OpsGenie repo",
-        linkUrl: "https://github.com/aquasecurity/opsgenie-plugin"
-      },
-      {
         name: "Splunk",
         description: "Coming soon...<br> The Aqua Security App for Splunk",
         compatibility: "Aqua 4.x",
