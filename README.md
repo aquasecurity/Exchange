@@ -1,6 +1,6 @@
 # Aqua Tech Exchange
 
-The Aqua Tech Exchange is a central location designed to showcase our collection of community plug-ins, extensions and integrations with our partners in the cloud native ecosystem.
+The Aqua Tech Exchange is a central location designed to share and showcase community developed plug-ins, extensions and integrations.
 
 _These integrations have been developed by the Aqua Community. For technical questions, please contact Aqua Security at community.plugins@aquasec.com._
 
