@@ -64,7 +64,7 @@ var data = [
         description:
           "Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API.",
         compatibility: "Aqua 4.5, 4.6",
-        linkText: "Aqua Reports",
+        linkText: "SumoLogic App",
         linkUrl: "https://github.com/aquasecurity/Sumo-Logic-App/"
       },
       {
