@@ -8,7 +8,7 @@ var data = [
         name: "AWS Security Hub",
         description:
           "Sends AWS Security Hub real-time security events in cloud native applications and environments, providing information regarding image vulnerabilities and misconfigurations, cloud host compliance posture, and suspicious or unauthorized events in runtime.",
-        compatibility: "Aqua 4.5, 4.6, 5.0",
+        compatibility: "Aqua 4.5, 4.6, 5.0, 5.3",
         linkText: "AWS Security Hub repo",
         linkUrl: "https://github.com/aquasecurity/aws-security-hub-plugin"
       },
@@ -16,7 +16,7 @@ var data = [
         name: "OpsGenie",
         description:
           "Opens tickets in OpsGenie regarding cloud native security incidents, allowing users to track and manage security incidents across images, hosts and workloads.",
-        compatibility: "Aqua 4.5, 4.6, 5.0",
+        compatibility: "Aqua 4.5, 4.6, 5.0, 5.3",
         linkText: "OpsGenie repo",
         linkUrl: "https://github.com/aquasecurity/opsgenie-plugin"
       },
@@ -24,7 +24,7 @@ var data = [
         name: "JIRA",
         description:
           "Open a ticket in JIRA when Aqua's vulnerability scanning finds vulnerabilities in images",
-        compatibility: "Aqua 5.0",
+        compatibility: "Aqua 5.0, 5.3",
         linkText: "JIRA Integration",
         linkUrl: "https://github.com/aquasecurity/alm-integration"
       },
@@ -32,7 +32,7 @@ var data = [
         name: "ServiceNow",
         description:
           "Open a ticket in ServiceNow when Aqua's vulnerability scanning finds vulnerabilities in images",
-        compatibility: "Aqua 5.0",
+        compatibility: "Aqua 5.0, 5.3",
         linkText: "ServiceNow",
         linkUrl: "https://github.com/aquasecurity/alm-integration"
       },
@@ -40,7 +40,7 @@ var data = [
         name: "Slack",
         description:
           "Send a message to a Slack channel when Aqua's vulnerability scanning finds vulnerabilities in images",
-        compatibility: "Aqua 5.0",
+        compatibility: "Aqua 5.0, 5.3",
         linkText: "Slack Integration",
         linkUrl: "https://github.com/aquasecurity/alm-integration"
       },
@@ -48,7 +48,7 @@ var data = [
         name: "MS Teams",
         description:
           "Send a message to a MS Teams channel when Aqua's vulnerability scanning finds vulnerabilities in images",
-        compatibility: "Aqua 5.0",
+        compatibility: "Aqua 5.0, 5.3",
         linkText: "MS Teams Integration",
         linkUrl: "https://github.com/aquasecurity/alm-integration"
       }
@@ -63,16 +63,16 @@ var data = [
         name: "Sumo Logic",
         description:
           "Aqua Reports is a basic API server that provides reports for the Aqua Security Cloud Native Security Platform (CSP). Aqua Reports does this by pulling information directly from the Aqua CSP API.",
-        compatibility: "Aqua 4.5, 4.6",
+        compatibility: "Aqua 4.5, 4.6, 5.0, 5.3",
         linkText: "SumoLogic App",
         linkUrl: "https://github.com/aquasecurity/Sumo-Logic-App/"
       },
       {
         name: "Splunk",
-        description: "Coming soon...<br> The Aqua Security App for Splunk",
-        compatibility: "Aqua 4.x",
-        linkText: "TBD",
-        linkUrl: ""
+        description: "The Aqua Security Dashboard for Splunk provides users with a holistic cybersecurity monitoring and forensics solution for containerized and cloud native environments.",
+        compatibility: "Aqua 5.0, 5.3",
+        linkText: "Splunk App",
+        linkUrl: "https://splunkbase.splunk.com/app/3529/"
       }
     ]
   },
@@ -93,7 +93,7 @@ var data = [
         name: "Email notifications",
         description:
           "Send an email notification when Aqua's vulnerability scanning finds vulnerabilities in images",
-        compatibility: "Aqua 5.0",
+        compatibility: "Aqua 5.0, Aqua 5.3",
         linkText: "Email Integration",
         linkUrl: "https://github.com/aquasecurity/alm-integration"
       }
